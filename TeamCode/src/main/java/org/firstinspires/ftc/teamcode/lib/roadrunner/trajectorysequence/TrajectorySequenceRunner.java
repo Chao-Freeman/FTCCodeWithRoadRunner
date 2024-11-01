@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.trajectorysequence;
+package org.firstinspires.ftc.teamcode.lib.roadrunner.trajectorysequence;
 
 import androidx.annotation.Nullable;
 
