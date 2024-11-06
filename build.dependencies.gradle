@@ -2,7 +2,7 @@ repositories {
     mavenCentral()
     google() // Needed for androidx
     maven {
-        url = 'https://maven.brott.dev/' // FTC Dashboard, Road Runner
+        url = 'https://maven.brott.dev/' // FTC Dashboard
     }
 }
 
@@ -20,8 +20,5 @@ dependencies {
     implementation('com.acmerobotics.dashboard:dashboard:0.4.16') { // FTC Dashboard
         exclude group: 'org.firstinspires.ftc'
     }
-    implementation "com.acmerobotics.roadrunner:ftc:0.1.14" // Road Runner
-    implementation "com.acmerobotics.roadrunner:core:1.0.0" // Road Runner
-    implementation "com.acmerobotics.roadrunner:actions:1.0.0" // Road Runner
 }
 
